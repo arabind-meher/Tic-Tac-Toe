@@ -10,6 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -20,13 +21,25 @@
                 <Insets top="30.0" />
             </VBox.margin>
             <children>
-                <TextField fx:id="player1Text" layoutX="14.0" layoutY="35.0" promptText="Player 1" style="-fx-background-color: #b22222;" text="Player 1" />
-                <TextField fx:id="player2Text" layoutX="299.0" layoutY="35.0" promptText="Player 2" style="-fx-background-color: #009900;" text="Player 2" />
+                <TextField fx:id="player1Text" layoutX="14.0" layoutY="14.0" promptText="Player 1" style="-fx-background-color: #b22222;" text="Player 1" />
+                <TextField fx:id="player2Text" layoutX="300.0" layoutY="14.0" promptText="Player 2" style="-fx-background-color: #009900;" text="Player 2" />
                 <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="36.0" prefHeight="31.0" prefWidth="100.0" text="VS">
                     <font>
                         <Font size="20.0" />
                     </font>
                 </Label>
+            <Circle fill="WHITE" layoutX="29.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="59.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="89.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="155.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="185.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="125.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="315.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="345.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="375.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="441.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="471.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="411.0" layoutY="72.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
             </children>
         </Pane>
         <GridPane fx:id="gridPane" maxHeight="300.0" maxWidth="300.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF;">

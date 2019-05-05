@@ -20,8 +20,8 @@
                 <Insets top="30.0" />
             </VBox.margin>
             <children>
-                <TextField fx:id="player1Text" layoutX="14.0" layoutY="35.0" promptText="Player 1" style="-fx-background-color: #b22222;" text="Player 1" />
-                <TextField fx:id="player2Text" layoutX="299.0" layoutY="35.0" promptText="Player 2" style="-fx-background-color: #009900;" text="Player 2" />
+                <TextField fx:id="player1Text" layoutX="14.0" layoutY="36.0" promptText="Player 1" style="-fx-background-color: #b22222;" text="Player 1" />
+                <TextField fx:id="player2Text" layoutX="300.0" layoutY="35.0" promptText="Player 2" style="-fx-background-color: #009900;" text="Player 2" />
                 <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="36.0" prefHeight="31.0" prefWidth="100.0" text="VS">
                     <font>
                         <Font size="20.0" />
