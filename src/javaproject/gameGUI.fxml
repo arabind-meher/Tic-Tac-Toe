@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #99FFFF;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaproject.Controller">
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #003333;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaproject.Controller">
     <children>
         <Pane fx:id="pane" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" style="-fx-background-color: #00CCCC;">
             <VBox.margin>
@@ -44,7 +44,7 @@
                 <Insets left="100.0" top="30.0" />
             </VBox.margin>
             <children>
-                <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0">
+                <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0">
                     <effect>
                         <Glow />
                     </effect>
@@ -52,7 +52,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1">
+                <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1">
                     <effect>
                         <Glow />
                     </effect>
@@ -60,7 +60,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2">
+                <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2">
                     <effect>
                         <Glow />
                     </effect>
@@ -68,7 +68,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.rowIndex="1">
+                <Rectangle fx:id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.rowIndex="1">
                     <effect>
                         <Glow />
                     </effect>
@@ -76,7 +76,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle5" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Rectangle fx:id="rectangle5" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <effect>
                         <Glow />
                     </effect>
@@ -84,7 +84,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle6" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Rectangle fx:id="rectangle6" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <effect>
                         <Glow />
                     </effect>
@@ -92,7 +92,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle7" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.rowIndex="2">
+                <Rectangle fx:id="rectangle7" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.rowIndex="2">
                     <effect>
                         <Glow />
                     </effect>
@@ -100,7 +100,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle8" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <Rectangle fx:id="rectangle8" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <effect>
                         <Glow />
                     </effect>
@@ -108,7 +108,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </Rectangle>
-                <Rectangle fx:id="rectangle9" arcHeight="5.0" arcWidth="5.0" fill="#006666" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Rectangle fx:id="rectangle9" arcHeight="5.0" arcWidth="5.0" fill="AQUA" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <effect>
                         <Glow />
                     </effect>
